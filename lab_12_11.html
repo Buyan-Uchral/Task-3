@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+  <script type="text/javascript">
+    a = window.prompt("Onoo");
+      x = qualityPoints(a);
+      
+      document.writeln("Dun = " +x);
+    function qualityPoints(p){
+        if (p >= 90) {
+            return 'A';
+        }
+        if (p >= 80) {
+            return 'B';
+        }
+        if (p >= 70) {
+            return 'C';
+        }
+        if (p >= 60) {
+            return 'D';
+        }
+        return 'F';
+    }   
+  </script>
+</body>
+</html>
