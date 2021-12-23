@@ -1,0 +1,57 @@
+body{
+ background-color: grey;
+
+}
+.out {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  height: 300px;
+}
+.in{
+    width: 20px;
+  border: 20px red;
+  padding: 20px;
+  margin: 20px;
+  height: 20px;
+}
+
+/*1*/ .in {
+  position: relative;
+  right: 75px;
+  bottom: 75px;
+  border: 3px;
+
+}
+/*2*/.in {
+  position: relative;
+  right: 95px;
+  bottom: 95px;
+  border: 3px;
+}
+/*3*/.in {
+  position: relative;
+  left: 280px;
+  top: 280px;
+  border: 3px;
+}
+/*4*/.in {
+  position: relative;
+  right: 85px;
+  top: 285px;
+  border: 3px;
+}
+/*5*/.in {
+  position: relative;
+  right: 115px;
+  bottom: 120px;
+  border: 3px;
+}
+/*6*/.in {
+  position: relative;
+  left: 355px;
+  bottom: 70px;
+  border: 3px;
+}
+
