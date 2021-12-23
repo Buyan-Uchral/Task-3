@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+ <script type="text/javascript">
+ 	   
+ 	  var positive = 0,
+ 	   negative = 0,
+ 	   zero = 0;
+    
+   num1 = window.prompt("enter number");
+   num2 = window.prompt("enter number");
+   num3= window.prompt("enter number");
+   
+        
+      
+       if(num1>0){
+       	positive++;
+           if(num2>0){
+              positive++;
+
+           }
+           if(num3>0){
+              positive++;
+       }
+   }else if(num1<0){
+       	negative++;
+           if(num2<0){
+              negative++;
+
+           }else
+           if(num3<0){
+              negative++;
+       }
+   }else if(num1=0){
+       	zero++;
+           if(num2=0){
+              zero++;
+
+           }else
+           if(num3=0){
+              zero++;
+       }
+   }
+      
+  
+   document.writeln("<h3>positive= "+positive );
+    document.writeln(" <h3>negative= "+negative );
+     document.writeln("  <h3>zero= "+zero );
+         
+ </script>
+</body>
+</html>
