@@ -133,3 +133,12 @@ div{
   position: absolute;
   top: 0px;
   left: 0px;
+	}
+.B:hover .background{
+	width: 220px;
+}
+.B:hover .clicktext{
+    color: white;
+    transition: 1s;
+}
+
