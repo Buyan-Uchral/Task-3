@@ -1,0 +1,70 @@
+#header{
+   border-radius: 25px;
+
+   color: white;
+
+   background-color: orange;
+
+  
+
+}
+.bigtext{
+	font-size: 20px;
+	width: : 50;
+font-family: 'Open Sans Condensed', sans-serif;
+   padding-top: 25px;
+   padding-left: 15px;
+   padding-right: 50px;
+   padding-bottom: 25px;
+   font-size: 25px;
+}
+.slogan{
+
+	font-size: 15px;
+	font-family: 'Amatic SC', cursive;
+}
+.nav{
+     font-weight: bold;
+     font-family: 'Roboto', sans-serif;
+}
+.navtext{
+ margin-left: 15px;
+
+}
+#firstsidebar{
+
+	background-color: blue;
+
+}
+.main{
+	
+	font-size: 40px;
+
+	background-color: tomato;
+
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+
+	
+}
+.subtext{
+padding-bottom: 10px;
+font-family: 'Amatic SC', cursive;
+
+}
+#secondsidebar{
+
+	background-color: aqua;
+	color: white;
+}
+.footer{
+	background-color: grey;
+	text-align: right;
+}
+.footertext{
+
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+
