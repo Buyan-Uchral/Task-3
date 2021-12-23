@@ -1,0 +1,135 @@
+div{
+  display: inline-block;
+}
+.fade{
+  width: 100px;
+  border: 15px ;
+  padding: 50px;
+  margin: 20px;
+  height: 45px;
+}
+.fade:hover{
+   opacity:50%;
+   transition: opacity 2s;
+}
+
+
+
+
+.color{
+  width: 100px;
+  border: 15px grey;
+  padding: 50px;
+  margin: 20px;
+  height: 45px;
+  color: white;
+  font-size: 25px;
+}
+.color:hover{
+  color: black;
+  transition: 1s;
+}
+
+
+
+
+.grow{
+	width: 100px;
+  border: 15px grey;
+  padding: 50px;
+  margin: 20px;
+  height: 45px;
+  color: white;
+  font-size: 20px;
+}
+.grow:hover{
+	width: 150px;
+  border: 15px grey;
+  padding: 65px;
+  margin: 25px;
+  height: 65px;
+  transition: 1s;
+}
+.grow:hover{
+   font-size: 30px;
+}
+
+
+.shrink{
+	width: 100px;
+  border: 15px grey;
+  padding: 50px;
+  margin: 20px;
+  height: 45px;
+  color: white;
+  font-size: 20px;
+}
+.shrink:hover{
+	width: 80px;
+  border: 15px grey;
+  padding: 35px;
+  margin: 15px;
+  height: 30px;
+  color: white;
+  font-size: 15px;
+  transition: 1s;
+}
+
+.rotate{
+  
+  width: 100px;
+  border: 15px grey;
+  padding: 50px;
+  margin: 20px;
+  height: 45px;
+  color: white;
+  font-size: 20px;
+}
+.rotate:hover{
+	transform: rotate(45deg);
+	transition: 1s;
+}
+
+
+.B{
+	bottom: 90px;
+  position: relative;
+}
+
+.border{
+	width: 100px;
+  border: 10px solid grey;
+  padding: 50px;
+  margin: 20px;
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.background{
+
+ width: 0px;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  height: 140px;
+  position: absolute;
+  top: 20px;
+  left: 19px;
+  transition: width 1s;
+
+  
+}
+
+.clicktext{
+	width: 100px;
+  border: 20px ;
+  padding: 50px;
+  margin: 20px;
+  height: 45px;
+  color: black;
+  font-size: 25px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
