@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+   <p id="text">Hello World</p>
+ <input type="number" id="fontsize">
+     <button onclick="changeFont()">Change</button>
+
+  <script type="text/javascript">
+  
+
+
+function changeFont(){
+	elem = document.getElementById("fontsize");
+	size = parseInt(elem.value);
+  	document.getElementById('text').style.fontSize=size+"px";
+   } 
+  </script>
+</body>
+</html>
