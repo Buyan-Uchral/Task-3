@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+  <script type="text/javascript">
+  	 var cost;
+       var time;
+       time = window.prompt("tsag= ");
+       a = parseInt(time);
+       x = calculateCharges(a);
+       document.writeln("Une = "+x);
+    
+      function calculateCharges(time){
+         if(time > 3 ){
+             time = time - 3;          
+             cost = time * 1000 + 5000;
+         }else if(time<=3){
+         
+              cost = 5000;
+        
+         }
+        return cost;
+      }  
+  </script>
+</body>
+</html>
