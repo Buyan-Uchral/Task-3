@@ -1,51 +1,133 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
- <head>
- 	<title>Task_3_A.Buyan-Uchral</title>
- 	<meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="button.css">
- </head>
- <body>
- 	      <h3>Нэр: А.Буян-Учрал <br>
- 	      Мэргэжил: Оюутан <br>
- 	      Сиси ID: 20B1NUM0082 </h3>
-         <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" width="300px" height="300px">
- 	      <h3>Сонирхол, хийх дуртай зүйл:<br>
- 	      Сагсан бөмбөгт сонирхолтой, хааяа  зурах дуртай.</h3>
-        <h3>Хамгийн их ордог 5 сайтын жагсаалт:</h3>
- 	      <ol>
- 	      	<li><a href="https://www.youtube.com">youtube</a></li>
- 	      	<li><a href="https://www.instagram.com">instagram</a></li>
- 	      	<li><a href="https://www.twitter.com">twitter</a></li>
- 	      	<li><a href="https://www.twitch.tv">twitch</a></li>
-         <li><a href="https://www.facebook.com">facebook</a></li></ol>
- 	      	<h3>Зургийн цомог</h3><br>
- 	      	<img src="https://dogtime.com/assets/uploads/gallery/doberman-pinscher-dog-breed-pictures/doberman-pinscher-dog-breed-pictures-1.jpg" width="300" height="150">
- 	      	<img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" width="300" height="150">
-              <img src="https://i.natgeofe.com/n/9e138c12-712d-41d4-9be9-5822a3251b5a/brandenburggate-berlin-germany.jpg" width="300" height="150">
-              <img src="https://images.hgmsites.net/hug/first-customer-mclaren-p1-photo-by-silverstone-auctions_100790936_h.jpg" width="300" height="150">
-              <img src="https://lp-cms-production.imgix.net/2021-02/Tokyo%20Main.jpg" width="300" height="150"><br>
-              <h3>Бичлэг</h3><br>
- 	      	<iframe width="300" height="150" src="https://www.youtube.com/embed/gOPEpsGJyCs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <iframe width="300" height="150" src="https://www.youtube.com/embed/NFW8EVINsro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <iframe width="300" height="150" src="https://www.youtube.com/embed/0ZSY4L_5xyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-              <iframe width="300" height="150" src="https://www.youtube.com/embed/QdYukGw2Z5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="300" height="150" src="https://www.youtube.com/embed/lXKDu6cdXLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-  <h3>Lab Assignments</h3>
- <button onclick="document.location='./lab_2.html'">Lab-2</button>
-<button onclick="document.location='./lab_3.html'">Lab-3</button>
-<button onclick="document.location='./lab_4.html'">Lab-4</button>
-<button onclick="document.location='./lab_5.html'">Lab-5</button>
-<button onclick="document.location='./lab_6.html'">Lab-6</button>
-<button onclick="document.location='./lab_7.html'">Lab-7</button>
-<button onclick="document.location='./lab_8.html'">Lab-8</button>
-<button onclick="document.location='./lab_9.html'">Lab-9</button>
-<button onclick="document.location='./lab_10.html'">Lab-10</button>
-<button onclick="document.location='./lab_11.html'">Lab-11</button>
-<button onclick="document.location='./lab_12.html'">Lab-12</button>
-<button onclick="document.location='./lab_13.html'">Lab-13</button>
-<button onclick="document.location='./lab_14.html'">Lab-14</button>
-<button onclick="document.location='./lab_15.html'">Lab-15</button>
- 	</body>
- 	</html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	 <link rel="stylesheet" type="text/css" href="button.css">
+</head>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: 'Jost', sans-serif;
+		transition: 0.5s;
+		overflow: hidden;
+	}
+	header{
+		width: 100%;
+		height: 100vh;
+		background-color: #f9f7fe;
+	}
+	nav{
+		width: 1200px;
+		height: 80px;
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+	nav .logo{
+		color: #8e43e7;
+		font-size: 30px;
+		cursor: pointer;
+	}
+	nav ul{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		list-style: none;
+	}
+	nav ul li{
+		margin-right: 40px;
+		font-size: 18px;
+		cursor: pointer;
+		color: #686485;
+		font-weight: 500;
+	}
+	nav ul li:hover{
+		color: #8e43e7;
+	}
+	.active{
+		color: #8e43e7;
+	}
+	.container{
+		width: 1200px;
+		height: 100%;
+		margin: auto;
+		display: flex;
+	}
+	.container h2{
+		padding-top: 100px;
+		color: #686485;
+	}
+	.container h1{
+		font-size: 60px;
+		color: #3f3a64;
+		font-weight: 400;
+	}
+	.btn{
+		width: 120px;
+		height: 50px;
+		border: none;
+		background: #8e43e7;
+		color: #fff;
+		font-size: 18px;
+		cursor: pointer;
+		border-radius: 10px;
+		margin-top: 25px;
+	}
+	.btn2{
+		width: 120px;
+		height: 50px;
+		border: 1px solid #8e43e7;
+		background: transparent;
+		color: #8e43e7;
+		font-size: 18px;
+		cursor: pointer;
+		border-radius: 10px;
+		margin-top: 25px;
+	}
+	.btn2:hover{
+		background: #8e43e7 ;
+		color: #fff;
+	}
+	.image img{
+		margin-left: 100px;
+		margin-top: 100px;
+	}
+</style>
+<body>
+    <header>
+    	<nav>
+    		<h1 class="logo">Task-3</h1>
+    		<ul>
+    			
+    			
+    		
+
+    		<button onclick="document.location='./interest.html">Сонирхол, хийх дуртай зүйл</button>
+    		<button onclick="document.location='./5sites.html">Хамгийн их ордог 5 сайт</button>
+    		<button onclick="document.location='./photo.html">Зургийн цомог</button>
+    		<button onclick="document.location='./video.html">Бичлэг</button>
+    			
+    			
+    		
+    		</ul>
+    	</nav>
+    	<div class="container">
+    		<div class="content">
+    			<h2>Hello</h2>
+    			<h1>Нэр: А.Буян-Учрал<br>
+    				Мэргэжил: Оюутан<br>
+    			Sisi ID: 20B1NUM0082</h1>
+    			
+    			<button class="btn2" onclick="document.location='./lab.html">Labs</button>
+    		</div>
+    		  <div class="image">
+    		  	<img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" width="300px" height="300px">
+    		  </div>
+    	</div>
+    </header>
+</body>
+</html>
