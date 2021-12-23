@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+  <script type="text/javascript">
+  	a = prompt("fahrenheit utga=");
+     b = prompt("celcius utga=");
+           f1 = celcius(a);
+           c1 = fahrenheit(b);
+           document.writeln("C="+f1);
+           document.writeln("F="+c1);
+    function celcius(F){
+    	c = 5.0/9.0*(F-32);
+    	return c;
+    }
+    function fahrenheit(C){
+    	f = 9.0/5.0*C+32;
+    	return f;
+    } 
+  </script>
+</body>
+</html>
